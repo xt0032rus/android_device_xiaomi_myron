@@ -10,3 +10,6 @@ ro.product.marketname=Poco F8 Ultra
 
 # Bluetooth
 bluetooth.device.default_name=Poco F8 Ultra
+
+# USB
+vendor.usb.product_string=Poco F8 Ultra
