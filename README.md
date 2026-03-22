@@ -20,4 +20,4 @@ Weight | 225 g
 Release Date | Q4 2024
 
 ## Device Picture
-![POCO F8 Ultra](https://example.com/poco-f8-ultra.jpg)
+![POCO F8 Ultra]https://moneyfromnothing.ru/phones/poco-f8-ultra/pics/poco-f8-ultra.webp)
