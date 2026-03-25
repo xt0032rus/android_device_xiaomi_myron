@@ -306,9 +306,6 @@ odm/etc/camera/human_detect_skin_seg/lm_human_detect_model
 odm/etc/camera/human_detect_skin_seg/lm_human_detect_skin_seg_pipeline
 odm/etc/camera/human_detect_skin_seg/lm_humanskin_seg_model
 odm/etc/camera/human_det_quant_npu_320.minn
-odm/etc/camera/human_parsing/lm_human_parsing_model
-odm/etc/camera/human_parsing/lm_human_parsing_pipeline
-odm/etc/camera/human_seg_bimap_quant_npu_768.minn
 odm/etc/camera/human_segmentation_512/lm_human_segmentation_512_model
 odm/etc/camera/human_segmentation_512/lm_human_segmentation_512_pipeline
 odm/etc/camera/human_seg_trimap_quant_npu_768.minn
