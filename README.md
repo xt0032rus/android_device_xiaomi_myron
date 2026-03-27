@@ -18,6 +18,3 @@ Connectivity | 5G (Sub6/mmWave), Wi-Fi 7, Bluetooth 5.4, NFC, IR blaster
 Dimensions | 162.3 x 75.8 x 8.2 mm
 Weight | 225 g
 Release Date | Q4 2024
-
-## Device Picture
-![POCO F8 Ultra]https://moneyfromnothing.ru/phones/poco-f8-ultra/pics/poco-f8-ultra.webp)

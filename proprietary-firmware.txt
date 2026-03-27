@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Xiaomi 17 Pro Max (OS3.0.45.0.WPBCNXM). 
+## are from Poco F8 Ultra (OS3.0.30.0.WPBCNXM). 
 
 abl.img;AB
 aop.img;AB
