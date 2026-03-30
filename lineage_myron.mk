@@ -24,9 +24,5 @@ PRODUCT_MANUFACTURER := xiaomi
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="missi-user 16 BP2A.250605.031.A3 OS3.0.30.2.W release-keys" \
-    BuildFingerprint := Xiaomi/missi/missi:16/BP2A.250605.031.A3/OS3.0.30.2.W:user/release-keys
-
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
