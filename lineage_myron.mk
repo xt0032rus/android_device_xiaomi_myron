@@ -24,5 +24,8 @@ PRODUCT_MANUFACTURER := xiaomi
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+WITH_GMS := true
+TARGET_CUSTOM_UDFPS := true
+
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
