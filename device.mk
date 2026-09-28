@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
 # MiTEE: oemvm only (trustedvm's kernel lives on a partition we don't mount)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qcvm/qcvm_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/qcvm_config.json
+
+# Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init/tee-supplicant.rc:$(TARGET_COPY_OUT_ODM)/etc/init/tee-supplicant.rc
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
