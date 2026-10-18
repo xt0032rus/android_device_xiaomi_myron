@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
 
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
 
 # Platform
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)

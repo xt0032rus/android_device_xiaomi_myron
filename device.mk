@@ -8,9 +8,6 @@
 # Inherit from sm8650-common
 $(call inherit-product, device/xiaomi/sm8850-common/common.mk)
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/myron/myron-vendor.mk)
-
 # Call miuicamera
 $(call inherit-product, device/xiaomi/myron-miuicamera/device.mk)
 
@@ -46,6 +43,5 @@ PRODUCT_PACKAGES += \
     SystemUIResMyron \
     WifiOverlayMyron
 
-# Udfps
-TARGET_HAS_UDFPS := true
-
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/xiaomi/myron/myron-vendor.mk)
