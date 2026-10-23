@@ -17,13 +17,4 @@ ro.vendor.proxcal.factor=2.84
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # SKU
-# Fallback (GL values) for non-ro props; the SKU file overrides them.
-bluetooth.device.default_name=Poco F8 Ultra
-vendor.usb.product_string=Poco F8 Ultra
 import /odm/etc/odm_${ro.boot.hwc}.prop
-# Fallback for ro props: only takes effect if the SKU file was not loaded
-# (unknown ro.boot.hwc), since ro props can be set only once.
-ro.product.marketname=Poco F8 Ultra
-ro.product.odm.brand=Poco
-ro.product.odm.model=25102PCBEG
-ro.product.odm.name=myron_global
