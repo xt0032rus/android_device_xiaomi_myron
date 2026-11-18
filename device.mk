@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/sm8850-common/common.mk)
 # Call miuicamera
 $(call inherit-product, device/xiaomi/myron-miuicamera/device.mk)
 
+# Goodix loads the legacy performance client at runtime.
+PRODUCT_PACKAGES += libqti-perfd-client
+
 # Device-specific audio routing
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/odm/resourcemanager_canoe_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml \
@@ -40,6 +43,7 @@ PRODUCT_PACKAGES += sensors.qsh_wrapper
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/common/libqti-perfd-client \
     $(LOCAL_PATH)
 
 # Overlays
