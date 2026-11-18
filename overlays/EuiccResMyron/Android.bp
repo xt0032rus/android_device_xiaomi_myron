@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "MyronEuiccOverlay",
+    name: "EuiccResMyron",
     device_specific: true,
 }
