@@ -41,6 +41,12 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += sensors.qsh_wrapper
 
+# USB
+PRODUCT_PACKAGES += usb_compositions.conf
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/usb/usb_compositions.conf:$(TARGET_COPY_OUT_ODM)/etc/usb_compositions.conf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/common/libqti-perfd-client \
