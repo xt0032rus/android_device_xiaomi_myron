@@ -29,6 +29,3 @@ debug.sf.late.sf.duration.60=15666666
 debug.sf.late.sf.duration.90=13111111
 debug.sf.late.sf.duration.120=10333333
 debug.sf.late.sf.duration.144=10347222
-
-# The MiTEE proxy starts the OEM VM from the Myron firmware.
-ro.vendor.qtvm.auto.start=oemvm
