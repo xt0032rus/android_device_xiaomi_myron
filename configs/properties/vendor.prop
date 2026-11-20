@@ -1,3 +1,6 @@
+# Bluetooth: the stock Dolby DAP effect uses the Qualcomm hardware audio route.
+persist.bluetooth.a2dp_offload.disabled=false
+
 # Graphics
 debug.sf.early.app.duration.60=16666666
 debug.sf.early.app.duration.144=10333333
