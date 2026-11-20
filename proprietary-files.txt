@@ -1615,6 +1615,11 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
+# Camera DSP runtime
+odm/lib64/libcalculator.so;FIX_SONAME
+odm/lib64/libhta_hexagon_runtime_qnn.so;FIX_SONAME
+odm/lib64/libhta_hexagon_runtime_snpe.so;FIX_SONAME
+
 # Vibrator
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/primitive_effect_0.bin
