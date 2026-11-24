@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/myron-miuicamera/device.mk)
 # Goodix loads the legacy performance client at runtime.
 PRODUCT_PACKAGES += libqti-perfd-client
 
+# Expose audio settings through LunarisDolby.
+$(call soong_config_set_bool,xiaomi_parts,unified_audio,true)
+
 # Device-specific audio routing
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/odm/resourcemanager_canoe_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml \
