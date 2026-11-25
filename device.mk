@@ -65,3 +65,6 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/myron/myron-vendor.mk)
+
+# Dolby Atmos
+$(call inherit-product, vendor/lunaris/dolby/dolby.mk)

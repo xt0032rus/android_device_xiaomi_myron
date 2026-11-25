@@ -31,3 +31,5 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Inherit from the proprietary version
 include vendor/xiaomi/myron/BoardConfigVendor.mk
+# Dolby Atmos
+include vendor/lunaris/dolby/BoardConfigDolby.mk
