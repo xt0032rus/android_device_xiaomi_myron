@@ -30,8 +30,8 @@ INFINITY_MAINTAINER := xt0032rus
 WITH_GAPPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="myron-user 17 CP2A.260605.016 OS4.0.5.0.XPMCNXM release-keys" \
-    BuildFingerprint=Redmi/myron/myron:17/CP2A.260605.016/OS4.0.5.0.XPMCNXM:user/release-keys \
+    BuildDesc="myron-user 17 CP2A.260605.016 OS4.0.8.0.XPMCNXM release-keys" \
+    BuildFingerprint=Redmi/myron/miproduct:17/CP2A.260605.016/OS4.0.8.0.XPMCNXM:user/release-keys \
     DeviceName=myron \
     DeviceProduct=myron \
     SystemDevice=missi \

@@ -1,4 +1,4 @@
-## Files are extracted from Redmi K90 Pro Max (OS4.0.5.0.XPMCNXM),
+## Files are extracted from Redmi K90 Pro Max (OS4.0.8.0.XPMCNXM),
 ## except entries pinned to other versions as noted below.
 
 # ACDBs
