@@ -1580,6 +1580,16 @@ odm/firmware/focaltech_ts_fw_myron.bin
 odm/firmware/myron_fts_thp_config.ini
 odm/firmware/Conf_MultipleTest.ini
 
+# Touchscreen (Recovery)
+odm/bin/toucheventcheck:recovery/root/system/bin/toucheventcheck;MAKE_COPY_RULE_ONLY
+odm/lib64/libtouchreport_alg.so:recovery/root/vendor/odm/lib64/libtouchreport_alg.so;MAKE_COPY_RULE_ONLY
+odm/lib64/libtouchreport_hal.so:recovery/root/vendor/odm/lib64/libtouchreport_hal.so;MAKE_COPY_RULE_ONLY
+odm/lib64/libtouchreport_sensor.so:recovery/root/vendor/odm/lib64/libtouchreport_sensor.so;MAKE_COPY_RULE_ONLY
+odm/lib64/libtouchreport.so:recovery/root/vendor/odm/lib64/libtouchreport.so;MAKE_COPY_RULE_ONLY
+odm/firmware/focaltech_ts_fw_myron.bin:recovery/root/lib/firmware/focaltech_ts_fw_myron.bin
+odm/firmware/myron_fts_thp_config.ini:recovery/root/lib/firmware/myron_fts_thp_config.ini
+odm/firmware/Conf_MultipleTest.ini:recovery/root/lib/firmware/Conf_MultipleTest.ini
+
 # Thermal config
 odm/etc/thermal-4k.conf
 odm/etc/thermal-arvr.conf

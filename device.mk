@@ -8,6 +8,14 @@
 # Inherit from sm8650-common
 $(call inherit-product, device/xiaomi/sm8850-common/common.mk)
 
+# Recovery touch processing uses these libraries before vendor is mounted.
+PRODUCT_PACKAGES += \
+    libbinder.recovery \
+    libhardware.recovery
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.myron.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.myron.rc
+
 # Call miuicamera
 $(call inherit-product, device/xiaomi/myron-miuicamera/device.mk)
 
@@ -39,7 +47,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
 # Sensors
-PRODUCT_PACKAGES += sensors.qsh_wrapper
+PRODUCT_PACKAGES += \
+    sensors.qsh_wrapper \
+    sensors.xiaomi.v2 \
+    sensor-notifier
 
 # USB
 PRODUCT_PACKAGES += usb_compositions.conf

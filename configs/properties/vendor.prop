@@ -1,3 +1,6 @@
+# Use the framework long-press path for screen-off fingerprint authentication.
+ro.vendor.sensors.xiaomi.udfps=true
+
 # Graphics
 debug.sf.early.app.duration.60=16666666
 debug.sf.early.app.duration.144=10333333
