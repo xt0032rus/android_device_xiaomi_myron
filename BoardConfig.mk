@@ -22,8 +22,14 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
     focaltech_touch_3683.ko
 
 # The recovery ramdisk must bring up the touch controller before /odm is mounted.
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += focaltech_touch_3683.ko
-BOOT_KERNEL_MODULES += focaltech_touch_3683.ko
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
+    xiaomi_touch.ko \
+    qts.ko \
+    focaltech_touch_3683.ko
+BOOT_KERNEL_MODULES += \
+    xiaomi_touch.ko \
+    qts.ko \
+    focaltech_touch_3683.ko
 
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
